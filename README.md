@@ -2,8 +2,9 @@
 A Docker Container for Salad.io to automate startup of the Nocturne miner when an instance is reallocated
 
 # Instructions
-**IMPORTANT**
-Upon first start, a settings.json file will be created in the same directory as the miner binary. You **MUST** save this file, or it will be lost when the environment is reallocated. The timing of reallocation is not predictable. Sometimes an instance will go 24 hours before being reallocated.
+**IMPORTANT**  
+Ideally you can follow step #1 below to generate the settings file locally before creating an instance. But if you cannot...  
+Upon first start, a settings.json file will be created in the same directory as the miner binary. You **MUST** save this file, or it will be lost when the environment is reallocated. The timing of reallocation is not predictable. Sometimes an instance will go 24 hours before being reallocated
 
 If you are comfortable with your mnemonic showing in the SaladCloud logs, you can echo them. This will output them there just in case you forget to save the settings.json file. But I recommend against this.
 
